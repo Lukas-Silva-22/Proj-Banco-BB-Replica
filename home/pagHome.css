@@ -1,0 +1,556 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: auto;
+    background: rgb(235, 235, 235);
+}
+
+nav {
+    background: yellow;
+    display: flex;
+    padding-block: 1vh;
+    padding-left: 2vh;
+
+}
+
+nav div {
+    margin: auto;
+    text-align: start;
+}
+
+div {
+    list-style: none;
+    display: flex;
+}
+
+div#rgt {
+    margin-left: auto;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(34, 5, 197);
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+input#pesq {
+    background: rgba(129, 127, 127, 0.473);
+    border-radius: 5px;
+    border-color: rgba(129, 127, 127, 0.473);
+}
+
+input#cl {
+    background: rgba(134, 129, 129, 0);
+    border-radius: 10px;
+    border-color: rgba(20, 100, 220, 0.295);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.582);
+}
+
+div#plano1 {
+    background-image: url('icon/plano1/Banner-Full-abertura-de-conta-DK.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 90vh;
+}
+
+div#text1 {
+    display: block;
+    color: #5E2DEF;
+    padding-block: 5%;
+    margin-left: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+div#dp {
+    background: yellow;
+    border-radius: 10px;
+    align-items: center;
+    width: 40vh;
+}
+
+#hp {
+    margin: auto;
+    display: block;
+    margin-bottom: 15%;
+
+}
+
+#p1 {
+    display: flex;
+    align-items: center;
+}
+
+#p1 p {
+    margin-left: 5vh;
+}
+
+h1#p2 {
+    font-size: 8vh;
+    width: 40vh;
+}
+
+p#p3 {
+    font-size: medium;
+
+}
+
+p#p4 {
+    width: 200px;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+div#p5 {
+    display: block;
+}
+
+div#p5 h1 {
+    font-size: 8vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #3d4ff3;
+    margin-inline: 15vh;
+    margin-block: 5vh;
+}
+
+div#p5 hr {
+    margin-left: 100px;
+    margin-top: 5px;
+    margin-bottom: 20vh;
+    width: 200px;
+    color: #3d4ff3;
+}
+
+#plano2 {
+    display: table;
+    align-items: center;
+    margin-left: 10vh;
+}
+
+div.bxm {
+    display: flex;
+    margin-left: 10vh;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.bxm div {
+    align-items: center;
+}
+
+div.dw {
+    display: table;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 45%;
+}
+
+.dw h1 {
+    color: #5968ec;
+}
+
+.dw p {
+    color: #797980;
+}
+
+.bxm2 {
+    margin: 10vh;
+    display: block;
+}
+
+#dw3 {
+    margin-right: 5vh;
+    text-align: center;
+    border-radius: 9px;
+    width: 70%;
+    height: 40vh;
+    background-image: url(icon/bxm2/ContaBB-min.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
+}
+
+#dw2 {
+    display: table;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+#dw4 {
+    width: 30%;
+    border-radius: 9px;
+    background-image: url(icon/bxm2/Card-Banner-Cartao-de-credito-DT-min-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position-x: right;
+    background-position-y: bottom;
+
+}
+
+#dw5 {
+    display: table;
+    width: 50%;
+    margin-block: auto;
+    margin-left: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+#bt {
+    background-color: yellow;
+    border-radius: 9px;
+    border: none;
+    width: 50%;
+    height: 6vh;
+    color: rgb(88, 88, 247);
+    font-size: medium;
+}
+
+#dw4 #dw5 #a2 {
+    color: rgb(57, 57, 238);
+}
+
+.plano3 {
+    display: flex;
+    align-items: center;
+    margin-left: 10vh;
+    margin-block: 8vh;
+}
+
+.ct {
+    display: table;
+    margin-right: 3%;
+    width: 33%;
+    height: 30vh;
+    border-radius: 9px;
+    margin-bottom: 5%;
+    box-shadow: 1px 3px rgba(0, 0, 0, 0.473);
+}
+
+#ic1 {
+    width: 100%;
+    height: 30vh;
+    background-image: url(icon/plano3/Card-Image-Emprestimo-min.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+#ic2 {
+    width: 100%;
+    height: 30vh;
+    background-image: url(icon/plano3/Card-Image-Investimento-min.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+#ic3 {
+    width: 100%;
+    height: 30vh;
+    background-image: url(icon/plano3/Card-Image-Loja-BB-min.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+#dw6 {
+    display: table;
+    padding-block: 15px;
+    text-align: left;
+    margin-left: 8%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#dw6 h1 {
+    color: #3d4ff3;
+}
+
+#dw6 p {
+    margin-block: 3%;
+}
+
+#bt2 {
+    color: yellow;
+    background: rgb(70, 70, 223);
+    border-radius: 9px;
+    border: none;
+    padding-inline: 5%;
+    padding-block: 3%;
+    font-size: small;
+}
+
+#p6 {
+    display: table;
+    margin-left: 10vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#p6 h1 {
+    margin-bottom: 6px;
+}
+
+#p6 p {
+    margin-bottom: 6vh;
+    font-size: x-large;
+}
+
+#nav2 {
+    margin-left: 10vh;
+}
+
+#nav2 div {
+    width: 20%;
+    margin-right: 2%;
+    display: table;
+    font-size: small;
+}
+
+#nav2 div a#a3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #74747a;
+    font-size: small;
+    margin-bottom: 5%;
+
+}
+
+#plano4 {
+    margin-inline: 10vh;
+    margin-block: 8vh;
+
+}
+
+#ic4 {
+    width: 30%;
+    display: table;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2%;
+    background-image: url(icon/plano4/card_momentos_e_solucoes-home_voce-openfinance_01.04_DT-imagem_01-min..jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 100%;
+    border-radius: 9px;
+}
+
+#ic4 div {
+    margin-block: 5%;
+    display: table;
+    margin-top: 85%;
+    width: 80%;
+}
+#ic4 div p{
+    margin-bottom: 3%;
+}
+
+.bl {
+    margin-right: 30px;
+    display: table;
+    width: 30%;
+    height: 60%;
+}
+
+#ic5 {
+    height: 70%;
+    width: 100%;
+    display: table;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 7%;
+    background-image: url(icon/plano4/índice.jpg);
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: 100%;
+    margin-inline: 5%;
+    margin-bottom: 5%;
+    border-radius: 9px;
+}
+
+#ic5 div {
+    display: table;
+    margin-top: 50%;
+
+}
+
+#blk {
+    display: table;
+    width: 100%;
+    font-size: medium;
+    margin-inline: 5%;
+    border-radius: 9px;
+    background: #797980;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 7%;
+}
+
+#ic6 {
+    width: 45%;
+    display: table;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 2%;
+    background-image: url(icon/plano4/bloco1-min.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 9px;
+}
+
+#ic6 div {
+    display: table;
+    margin-top: 60%;
+    width: 56%;
+}
+#al{
+    margin-left: 10vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #5968ec;
+}
+#plano5 {
+    width: 100%;
+    margin-left: 10vh;
+}
+
+.ctn {
+    display: table;
+    width: 12%;
+    height: 22vh;
+    margin-right: 3%;
+    margin-block: 8%;
+    text-align: center;
+    background: white;
+    border-radius: 9px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #5968ec;
+}
+
+#ic7 {
+   
+    height: 70%;
+    text-align: center;
+    background-image: url(icon/plano5/2-via-boleto.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    margin-bottom: 3%;
+    background-position-x: center;
+}
+#ic8 {
+    
+    height: 70%;
+    background-image: url(icon/plano5/bb-rel.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    margin-bottom: 3%;
+    background-position-x: center;
+}
+#ic9 {
+    
+    height: 70%;
+    background-image: url(icon/plano5/pacotes.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    margin-bottom: 3%;
+    background-position-x: center;
+}
+#ic10 {
+    
+    height: 70%;
+    background-image: url(icon/plano5/prob.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    margin-bottom: 3%;
+    background-position-x: center;
+}
+#ic11 {
+    
+    height: 70%;
+    background-image: url(icon/plano5/trarifas.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    margin-bottom: 3%;
+    background-position-x: center;
+}
+#ic12 {
+    
+    height: 70%;
+    background-image: url(icon/plano5/envelopes.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    margin-bottom: 3%;
+    background-position-x: center;
+}
+#prop22 {
+    margin: auto;
+    width: 90%;
+    height: 40vh;
+    background-image: url(icon/2022-D091-Fase-2-Desktop-1563x386px.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 9px;
+    box-shadow: 1px 3px rgba(65, 64, 64, 0.651);
+    margin-bottom: 5%;
+}
+#nmb{
+    display: table;
+    width: 100%;
+    height: 10vh;
+    background: white;
+    padding-bottom: 2%;
+}
+.nb1{
+    display: flex;
+    margin-left: 3%;
+}
+.nb2{
+    display: table;
+    width: 25%;
+    margin-top: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #5968ec;
+    font-size: medium;
+}
+#plano6{
+    padding: 3%;
+    width: 100%;
+    background: yellow;
+    display: flex;
+    align-items: flex-end;
+}
+#nbm2{
+    width: 40%;
+    margin-right: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    color: #808083;
+}
+.ult{
+    width: 15%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.rec{
+    width: 20px;
+    height: 20px;
+}
+.ult .a4{
+    margin-left: 5%;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #3b3b3d;
+}
